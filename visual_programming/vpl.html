@@ -106,7 +106,7 @@
         .flex-section-components .text-content p {
             font-size: 20px;
             line-height: 1.6;
-            color: #020202;
+            color: #000000;
             font-weight: 500;
         }
         .tile-section {
@@ -115,7 +115,6 @@
             justify-content: space-between;
             margin: 40px auto;
             max-width: 1200px;
-            padding: 20px 0;
         }
         .tile-section .image-content {
             flex: 1;
@@ -129,14 +128,14 @@
             padding: 20px;
         }
         .tile-section .text-content h1 {
-            font-size: 28px;
+            font-size: 36px;
             color: #e6433a;
             margin-bottom: 10px;
         }
         .tile-section .text-content p {
-            font-size: 16px;
+            font-size: 20px;
             line-height: 1.6;
-            color: #555;
+            color: #000000;
         }
         @media (max-width: 768px) {
             .intro-section {
@@ -190,34 +189,131 @@
     <!-- Tile 1: Sprite -->
     <div class="tile-section">
         <div class="image-content">
-            <img src="sprite.png" alt="Sprite">
+            <img src="sprite.png" alt="Sprite" style="margin-left: 0px;padding-left: 150px;padding-top: 30px;">
         </div>
         <div class="text-content">
             <h1>Sprite</h1>
-            <p>A Sprite is a character or object in Visual Coding. It is the element that performs actions on the stage. You can choose, customize, or upload your own sprite to make your programs unique.</p>
+            <p style="text-align: justify;">A Sprite is a character or object in Visual Coding. It is the element that performs actions on the stage. You can choose, customize, or upload your own sprite to make your programs unique.</p>
         </div>
     </div>
 
     <!-- Tile 2: Stage -->
     <div class="tile-section" style="flex-direction: row-reverse;">
         <div class="image-content">
-            <img src="stage_image.jpg" alt="Stage">
+            <img src="stage_2.png" alt="Stage" style="height: 220px;width: 340px;margin-left: 150px;padding-top: 50px;box-shadow: 5px 5px 15px rgba(241, 2, 2, 0.5);">
         </div>
         <div class="text-content">
             <h1>Stage</h1>
-            <p>The Stage is the background where all the actions happen. It is the canvas where your sprites interact and perform the coded actions.</p>
+            <p style="text-align: justify;">The Stage is the background where all the actions happen. It is the canvas where your sprites interact and perform the coded actions.</p>
         </div>
     </div>
 
     <!-- Tile 3: Script -->
     <div class="tile-section">
         <div class="image-content">
-            <img src="script.png" alt="Script">
+            <img src="script.png" alt="Script" style="height: 220px;padding-left: 150px;padding-top: 50px;">
         </div>
         <div class="text-content">
             <h1>Script</h1>
-            <p>The Script is the set of instructions or code blocks you arrange to make your sprites perform actions. It defines the behavior of your sprites and brings your story, game, or animation to life.</p>
+            <p style="text-align: justify;">The Script is the set of instructions or code blocks you arrange to make your sprites perform actions. It defines the behavior of your sprites and brings your story, game, or animation to life.</p>
         </div>
     </div>
+
+    <!-- Tile 4: Scripting area -->
+    <div class="tile-section" style="flex-direction: row-reverse;">
+        <div class="image-content">
+            <img src="scripting_area.png" alt="Scripting area" style="height: 250px;width: 350px;margin-left: 150px;padding-top: 10px;border: 5px solid rgb(255, 255, 255); 
+        box-shadow: 5px 5px 15px rgba(241, 2, 2, 0.5);">
+        </div>
+        <div class="text-content">
+            <h1>Scripting Area</h1>
+            <p style="text-align: justify;">The Scripting Area is the large empty space to the right of the Block Palette. You can drag the
+                programming blocks and create programs for each sprite in the scripting area.
+            </p>
+        </div>
+    </div>
+
+    <!-- Tile 3: Sprite pane -->
+    <div class="tile-section">
+        <div class="image-content">
+            <img src="sprite_pane.png" alt="Script" style="height: 200px;padding-left: 50px;padding-top: 50px;width: 400px;box-shadow: 5px 5px 15px rgba(241, 2, 2, 0.5);">
+        </div>
+        <div class="text-content">
+            <h1>Sprite Pane</h1>
+            <p style="text-align: justify;">Sprite pane is a white area located just below the Stage. It contains options to change the size, name, position and direction of Sprite.</p>
+        </div>
+    </div>
+
+    <!-- Tile 4: Blocks Palette -->
+    <div class="tile-section" style="flex-direction: row-reverse;">
+        <div class="image-content">
+            <img src="code_palette.png" alt="Scripting area" style="height: 350px;width: 100px;margin-left: 150px;padding-top: 10px;border: 5px solid rgb(255, 255, 255); 
+        box-shadow: 5px 5px 15px rgba(241, 2, 2, 0.5);">
+        </div>
+        <div class="text-content">
+            <h1>Blocks Palette</h1>
+            <p style="text-align: justify;">Code blocks are broadly classified into 9 categories which are colour-coded. Each category has a set of programming blocks under it.
+                 We can use these programming blocks to make the sprite act according to our needs.
+            </p>
+        </div>
+    </div>
+
+    <!-- Activity Section -->
+    <div class="tile-section" style="background-color: #f5f5f5; padding: 40px; border-radius: 20px; margin-top: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);">
+        <div class="image-content" style="text-align: center;">
+            <img src="cat_walk.png" alt="Walking Cat Activity" style="height: 250px; width: 250px; box-shadow: 5px 5px 15px rgba(255, 173, 96, 0.7);"><br>
+            <img src="cat_walk_code.png" alt="Cat Moving Steps" style="height: 200px; width: 200px; margin-top: 20px; border-radius: 10px; box-shadow: 5px 5px 15px rgba(96, 173, 255, 0.7);">
+        </div>
+        <div class="text-content" style="text-align: center; margin-top: 20px;">
+            <h1 style="font-size: 40px; color: #e8433f; font-family: 'Comic Sans MS', cursive;">🐾 Interactive Activity: Walking Cat 🐱</h1>
+            <p style="font-size: 18px; color: #333; line-height: 1.8; max-width: 800px; margin: 0 auto;">
+                Let's make a cat walk across the stage! Follow these fun steps to create your animation:
+            </p>
+            <div style="margin: 20px auto; max-width: 600px; text-align: left; background-color: #ffefde; padding: 20px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
+                <ol style="font-size: 18px; color: #555;">
+                    <li>Open the Visual Coding environment and choose a cat sprite.</li>
+                    <li>Select a background by clicking on <span style="color: #e8433f; font-weight: bold;">"Choose a Backdrop."</span></li>
+                    <li>Drag the <span style="color: #e8433f; font-weight: bold;">"When Flag Clicked"</span> block from the Events category.</li>
+                    <li>Attach the <span style="color: #e8433f; font-weight: bold;">"Move 10 steps"</span> block from the Motion category.</li>
+                    <li>Use the <span style="color: #e8433f; font-weight: bold;">"Wait 1 second"</span> block from the Control category for smooth movement.</li>
+                    <li>Click the green flag and watch the cat walk!</li>
+                </ol>
+                <p style="font-size: 16px; color: #444; text-align: center; font-style: italic; margin-top: 10px;">Tip: Experiment with different step sizes to make the cat move faster or slower!</p>
+            </div>
+            <a href="#" class="btn" style="margin-top: 20px; font-size: 20px; background-color: #ffd700; color: #333; padding: 15px 30px; text-decoration: none; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
+                Create Your Walking Cat 🚀
+            </a>
+        </div>
+    </div>
+
+        <!-- Draw a Line Activity Section -->
+        <div class="tile-section" style="background-color: #e6f7ff; padding: 40px; border-radius: 20px; margin-top: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);">
+            <div class="image-content" style="text-align: center;">
+                <img src="draw_line.png" alt="Pen Down for Drawing" style="height: 200px; width: 200px; box-shadow: 5px 5px 15px rgba(96, 173, 255, 0.7);"><br>
+                <img src="draw_line_code.png" alt="Line Drawing Path" style="height: 300px; width: 200px; margin-top: 20px; border-radius: 10px; box-shadow: 5px 5px 15px rgba(255, 96, 173, 0.7);">
+            </div>
+            <div class="text-content" style="text-align: center; margin-top: 20px;">
+                <h1 style="font-size: 40px; color: #1e90ff; font-family: 'Comic Sans MS', cursive;">🖊️ Interactive Activity: Draw a Line ✏️</h1>
+                <p style="font-size: 18px; color: #333; line-height: 1.8; max-width: 800px; margin: 0 auto;">
+                    Let’s make your sprite draw a line on the stage! Follow these easy steps to unleash your creativity:
+                </p>
+                <div style="margin: 20px auto; max-width: 600px; text-align: left; background-color: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
+                    <ol style="font-size: 18px; color: #555;">
+                        <li>Open the Visual Coding environment and choose a sprite.</li>
+                        <li>Click on <span style="color: #1e90ff; font-weight: bold;">"Add Extension"</span> at the bottom left and select the Pen extension.</li>
+                        <li>Drag the <span style="color: #1e90ff; font-weight: bold;">"When Flag Clicked"</span> block from the Events category.</li>
+                        <li>Add the <span style="color: #1e90ff; font-weight: bold;">"Pen Down"</span> block from the Pen category.</li>
+                        <li>Use the <span style="color: #1e90ff; font-weight: bold;">"Move 50 steps"</span> block from the Motion category.</li>
+                        <li>Click the green flag and watch your sprite draw a line!</li>
+                    </ol>
+                    <p style="font-size: 16px; color: #444; text-align: center; font-style: italic; margin-top: 10px;">Tip: Change the "Move steps" value to draw longer or shorter lines!</p>
+                </div>
+                <a href="#" class="btn" style="margin-top: 20px; font-size: 20px; background-color: #1e90ff; color: #fff; padding: 15px 30px; text-decoration: none; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
+                    Start Drawing 🚀
+                </a>
+            </div>
+        </div>
+    
+    
 </body>
 </html>
