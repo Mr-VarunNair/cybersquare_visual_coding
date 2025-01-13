@@ -1,0 +1,219 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.intro-section {
+    display: flex;
+    align-items: center;
+    background-color: #e6433a;
+    color: #fff;
+    padding: 40px 20px;
+    height: 600px;
+}
+.intro-text {
+    flex: 1;
+    padding: 20px;
+}
+.intro-text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+.intro-text p {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+.intro-text .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #FF5A5F;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.intro-text .btn:hover {
+    background-color: #ffe2e4;
+    color: black;
+}
+.intro-image {
+    flex: 1;
+    text-align: center;
+}
+.intro-image img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+.flex-section {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 1200px;
+    height: 400px;
+}
+.flex-section .image-content {
+    flex: 1;
+}
+.flex-section .image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.flex-section .text-content {
+    flex: 1;
+    padding-left: 40px;
+}
+.flex-section .text-content h1 {
+    font-size: 36px;
+    color: #e6433a;
+    margin-bottom: 20px;
+}
+.flex-section .text-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #020202;
+    font-weight: 500;
+}
+.flex-section-components {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 1200px;
+    height: 200px;
+}
+.flex-section-components .text-content{
+    flex: 1;
+    padding-left: 40px;
+}
+.flex-section-components .text-content h1{
+    font-size: 36px;
+    color: #e6433a;
+    margin-bottom: 20px;
+}
+.flex-section-components .text-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000000;
+    font-weight: 500;
+}
+.tile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+.tile-section .image-content {
+    flex: 1;
+}
+.tile-section .image-content img {
+    width: 200px;
+    height: auto;
+}
+.tile-section .text-content {
+    flex: 1;
+    padding: 20px;
+}
+.tile-section .text-content h1 {
+    font-size: 36px;
+    color: #e6433a;
+    margin-bottom: 10px;
+}
+.tile-section .text-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.icon-text-container {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.icon-text {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 50px;
+    margin-right: 10px; 
+}
+
+.text {
+    flex: 1; 
+}
+
+.circle {
+    width: 50px; /* Circle width */
+    height: 50px; /* Circle height */
+    border-radius: 50%; /* Makes the shape circular */
+    background-color: #f39c12; /* Circle background color */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    color: white; /* Text color */
+    font-size: 20px; /* Font size for the number */
+    font-weight: bold; /* Bold font */
+}
+
+header {
+background-color: #e6433a;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+main {
+max-width: 800px;
+margin: 20px auto;
+}
+
+.tiles-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.tile {
+flex: 1 0 300px;
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(70, 221, 62, 0.831);
+padding: 20px;
+border-radius: 10px;
+transition: transform 0.3s ease-in-out;
+}
+
+.tile:hover {
+transform: scale(1.05);
+}
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .intro-section {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+    .flex-section, .tile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-content {
+        padding: 10px;
+    }
+}

@@ -5,152 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Coding for Kids</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="vpl_style.css" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        .intro-section {
-            display: flex;
-            align-items: center;
-            background-color: #e6433a;
-            color: #fff;
-            padding: 40px 20px;
-            height: 600px;
-        }
-        .intro-text {
-            flex: 1;
-            padding: 20px;
-        }
-        .intro-text h1 {
-            font-size: 36px;
-            font-weight: 600;
-            margin: 0 0 20px;
-        }
-        .intro-text p {
-            font-size: 18px;
-            margin: 10px 0;
-            line-height: 1.6;
-        }
-        .intro-text .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #fff;
-            color: #FF5A5F;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .intro-text .btn:hover {
-            background-color: #ffe2e4;
-            color: black;
-        }
-        .intro-image {
-            flex: 1;
-            text-align: center;
-        }
-        .intro-image img {
-            max-width: 90%;
-            border-radius: 10px;
-        }
-        .flex-section {
-            display: flex;
-            align-items: center;
-            margin: 40px auto;
-            max-width: 1200px;
-            height: 400px;
-        }
-        .flex-section .image-content {
-            flex: 1;
-        }
-        .flex-section .image-content img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .flex-section .text-content {
-            flex: 1;
-            padding-left: 40px;
-        }
-        .flex-section .text-content h1 {
-            font-size: 36px;
-            color: #e6433a;
-            margin-bottom: 20px;
-        }
-        .flex-section .text-content p {
-            font-size: 20px;
-            line-height: 1.6;
-            color: #020202;
-            font-weight: 500;
-        }
-        .flex-section-components {
-            display: flex;
-            align-items: center;
-            margin: 40px auto;
-            max-width: 1200px;
-            height: 200px;
-        }
-        .flex-section-components .text-content{
-            flex: 1;
-            padding-left: 40px;
-        }
-        .flex-section-components .text-content h1{
-            font-size: 36px;
-            color: #e6433a;
-            margin-bottom: 20px;
-        }
-        .flex-section-components .text-content p {
-            font-size: 20px;
-            line-height: 1.6;
-            color: #000000;
-            font-weight: 500;
-        }
-        .tile-section {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin: 40px auto;
-            max-width: 1200px;
-        }
-        .tile-section .image-content {
-            flex: 1;
-        }
-        .tile-section .image-content img {
-            width: 200px;
-            height: auto;
-        }
-        .tile-section .text-content {
-            flex: 1;
-            padding: 20px;
-        }
-        .tile-section .text-content h1 {
-            font-size: 36px;
-            color: #e6433a;
-            margin-bottom: 10px;
-        }
-        .tile-section .text-content p {
-            font-size: 20px;
-            line-height: 1.6;
-            color: #000000;
-        }
-        @media (max-width: 768px) {
-            .intro-section {
-                flex-direction: column;
-                text-align: center;
-                height: auto;
-            }
-            .flex-section, .tile-section {
-                flex-direction: column;
-                text-align: center;
-            }
-            .text-content {
-                padding: 10px;
-            }
-        }
     </style>
 </head>
 <body>
@@ -177,6 +33,80 @@
             <p style="text-align: justify;">Visual programming language uses blocks or graphics that are pre-defined with code to create programs. You can build interactive stories, games, and animations by connecting these blocks!</p>
         </div>
     </div>
+
+
+    <!--VPL  Header -->
+    <div class="flex-section-components">
+        <div class="text-content">
+            <h1>Getting familiar with Visual Coding interface</h1>
+        </div>
+    </div>    
+
+
+    <!-- CS Platform -->
+    <div class="tile-section">
+        <div class="image-content">
+            <img src="cs_lab.png" alt="sc_lab" style="height: 500px;width: 750px;box-shadow: 5px 5px 15px rgba(70, 67, 67, 0.5);">
+        </div>
+        <div class="text-content">
+            <h1 style="font-size: 30px;">Cyber Square Virtual Lab</h1>
+            <p style="text-align: justify;">After login into Cyber Square platform, click the <b>CS_Lab</b> icon.</p>
+        </div>
+    </div>
+
+    <!-- Visual Syudio icon -->
+    <div class="tile-section" style="flex-direction: row-reverse;">
+        <div class="image-content" style="width: 780px;">
+            <img src="vs_tab.png" alt="vs_tab" style="height: 500px;width: 750px;margin-left: 150px;box-shadow: 5px 5px 15px rgba(241, 2, 2, 0.5);">
+        </div>
+        <div class="text-content">
+            <h1 style="font-size: 30px;">Visual Coding 3</h1>
+            <!--
+            <p style="text-align: justify;">
+                <img src="new_project_vp.png" alt="Point 1" style="width: 50px; vertical-align: middle;"> 
+                <strong>New Project:</strong> This is for creating new Visual Programming project.<br>
+                <img src="folder_vp.png" alt="Point 2" style="width: 50px; vertical-align: middle;"> 
+                <strong>My Projects:</strong> This is for list already creaded projects.<br>
+                <img src="tutorial_vp.png" alt="Point 3" style="width: 50px; vertical-align: middle;"> 
+                <strong>Video Tutorial:</strong> This is for tutorial videos.
+            </p>
+            -->
+            <div class="icon-text-container">
+                <div class="icon-text">
+                    <img src="new_project_vp.png" alt="Point 1" class="icon">
+                    <div class="text">
+                        <strong>New Project:</strong> This is for creating new Visual Programming project.
+                    </div>
+                </div>
+                <div class="icon-text">
+                    <img src="folder_vp.png" alt="Point 2" class="icon">
+                    <div class="text">
+                        <strong>My Projects:</strong> This is for listing already created projects.
+                    </div>
+                </div>
+                <div class="icon-text">
+                    <img src="tutorial_vp.png" alt="Point 3" class="icon">
+                    <div class="text" style="padding-top: 10px;">
+                        <strong>Video Tutorial:</strong> This is for tutorial videos.
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Visual Coding Interface -->
+    <div class="tile-section">
+        <div class="image-content">
+            <img src="ui_vp.png" alt="sc_lab" style="height: 500px;width: 800px;box-shadow: 5px 5px 15px rgba(70, 67, 67, 0.5);">
+        </div>
+        <div class="text-content">
+            <h1 style="font-size: 30px;">User Interface</h1>
+            <p style="text-align: justify; width: 425px;"> By clicking <img src="new_project_vp.png" alt="Point 1" class="icon"> icon Visual Coding Editor will
+            will start and you can see the following arrangement of regions in the window. </p>
+        </div>
+    </div>
+
 
     <!-- Key Components Header -->
     <div class="flex-section-components">
@@ -257,6 +187,83 @@
             </p>
         </div>
     </div>
+
+    <!--Start Visual Programming
+    <div class="flex-section-components" style="margin-bottom: 0px; height: 87px;">
+        <div class="text-content">
+            <h1>Let's get start with a simple example</h1>
+        </div>
+    </div>  
+     -->
+
+    <!-- Start Visual Programming 
+    <div class="tile-section" style="margin-top: 0px;">
+        <div class="image-content">
+            <img src="sprite_hello.png" alt="sprite_hello" style="height: 300px;width: 300px;">
+        </div>
+        <div class="text-content">
+            <h1 style="font-size: 30px;">Wishing Sprite</h1>
+            <p style="text-align: justify;"> </p>
+        </div>
+    </div>
+
+    <div class="circle">1</div>
+    -->
+
+    <header>
+        <h1>Come, let us learn how to make a conversation between sprites.</h1>
+    </header>
+
+    <main>
+        <section class="tiles-container">
+            <h2 class="circle">1</h2>
+            <div class="tile">
+                
+                <p>
+                    GeeksforGeeks is a leading
+                    platform that provides computer
+                    science resources and coding
+                    challenges for programmers and
+                    technology enthusiasts
+                </p>
+            </div>
+            <div class="tile">
+                <h2>Tile 2</h2>
+                <p>
+                    GeeksforGeeks is a leading
+                    platform that provides computer
+                    science resources and coding
+                    challenges for programmers and
+                    technology enthusiasts
+                </p>
+            </div>
+
+            <div class="tile">
+                <h2>Tile 3</h2>
+                <p>
+                    GeeksforGeeks is a leading
+                    platform that provides computer
+                    science resources and coding
+                    challenges for programmers and
+                    technology enthusiasts
+                </p>
+            </div>
+
+            <div class="tile">
+                <h2>Tile 4</h2>
+                <p>
+                    GeeksforGeeks is a leading
+                    platform that provides computer
+                    science resources and coding
+                    challenges for programmers and
+                    technology enthusiasts
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
 
     <!-- Activity Section -->
     <div class="tile-section" style="background-color: #f5f5f5; padding: 40px; border-radius: 20px; margin-top: 20px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);">
