@@ -6,6 +6,24 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+/* Header Styling */
+.header {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+}
+
 .intro-section {
     display: flex;
     align-items: center;
