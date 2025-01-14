@@ -6,7 +6,6 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
-/* Header Styling */
 .header {
     width: 100%;
     background-color: #fff;
@@ -17,10 +16,8 @@ body {
     left: 0;
     z-index: 1000;
 }
-
-/* Logo Styling */
 .logo img {
-    width: 250px; /* Adjust size as needed */
+    width: 250px;
     height: auto;
 }
 
