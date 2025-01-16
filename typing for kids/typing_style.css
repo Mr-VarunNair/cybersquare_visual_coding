@@ -1,4 +1,4 @@
-/* General Body Styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -6,6 +6,10 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 
 .intro-section {
     display: flex;
@@ -53,7 +57,6 @@ body {
     border-radius: 10px;
 }
 
-/* Container Styles */
 .container {
     padding: 20px;
     max-width: 1200px;
@@ -62,14 +65,13 @@ body {
 
 section iframe {
     display: block;
-    margin: 0 auto; /* Centers the iframe */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow */
-    border: none; /* Removes the default border */
+    margin: 0 auto; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border: none;
 }
 
 
-/* Flex Section */
 .flex-section {
     display: flex;
     align-items: center;
@@ -107,7 +109,6 @@ section iframe {
     font-weight: 500;
 }
 
-/* Section Titles */
 section h2 {
     font-size: 28px;
     color: #e6433a;
@@ -120,7 +121,6 @@ section p {
     color: #333;
 }
 
-/* Responsive Tiles Layout */
 main {
     max-width: 1200px;
     margin: 20px auto;
@@ -172,7 +172,6 @@ header {
     transform: scale(1.05);
 }
 
-/* Footer Styles */
 footer {
     background-color: #e6433a;
     color: #fff;
@@ -182,7 +181,6 @@ footer {
     margin-top: 40px;
 }
 
-/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -202,7 +200,7 @@ footer {
     }
 
     .tile {
-        flex: 1 0 calc(50% - 20px); /* 2 tiles per row */
+        flex: 1 0 calc(50% - 20px); 
     }
 
     .flex-section {
@@ -218,7 +216,7 @@ footer {
 
 @media (max-width: 480px) {
     .tile {
-        flex: 1 0 100%; /* 1 tile per row */
+        flex: 1 0 100%; 
     }
 
     .flex-section {
@@ -227,22 +225,22 @@ footer {
 }
 .tiles2-container {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping of tiles */
-    gap: 20px; /* Space between tiles */
+    flex-wrap: wrap;
+    gap: 20px; 
 }
 
 .tiles {
-    flex: 1 0 calc(50% - 20px); /* 2 tiles per row with gap adjustment */
+    flex: 1 0 calc(50% - 20px); 
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
-    overflow: hidden; /* Ensures no content overflows the tile boundary */
+    overflow: hidden;
 }
 
 .tiles a {
     text-decoration: none;
-    color: inherit; /* Inherit text color for better integration */
+    color: inherit; 
     display: block;
     height: 100%;
     text-align: center;
@@ -252,7 +250,7 @@ footer {
 .tiles img {
     width: 100%;
     height: auto;
-    border-radius: 10px 10px 0 0; /* Rounded corners for the top of the image */
+    border-radius: 10px 10px 0 0; 
     margin-bottom: 10px;
 }
 
@@ -271,9 +269,8 @@ footer {
     line-height: 1.6;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     .tiles {
-        flex: 1 0 calc(100% - 20px); /* 1 tile per row on smaller screens */
+        flex: 1 0 calc(100% - 20px);
     }
 }
