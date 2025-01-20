@@ -16,10 +16,8 @@ body {
     left: 0;
     z-index: 1000;
 }
-.logo img {
-    width: 250px;
-    height: auto;
-}
+
+    
 
 .intro-section {
     display: flex;
@@ -167,19 +165,6 @@ body {
     flex: 1; 
 }
 
-.circle {
-    width: 50px; /* Circle width */
-    height: 50px; /* Circle height */
-    border-radius: 50%; /* Makes the shape circular */
-    background-color: #f39c12; /* Circle background color */
-    display: flex; /* Flexbox for centering */
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
-    color: white; /* Text color */
-    font-size: 20px; /* Font size for the number */
-    font-weight: bold; /* Bold font */
-}
-
 header {
 background-color: #e6433a;
 color: #fff;
@@ -210,6 +195,7 @@ transition: transform 0.3s ease-in-out;
 .tile:hover {
 transform: scale(1.05);
 }
+.blk-palette
 footer {
 background-color: #333;
 color: #fff;
@@ -217,18 +203,85 @@ text-align: center;
 padding: 10px;
 }
 
-
 @media (max-width: 768px) {
     .intro-section {
         flex-direction: column;
         text-align: center;
+        padding: 20px 10px;
         height: auto;
     }
+
+    .intro-text {
+        padding: 10px;
+    }
+
+    .intro-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
     .flex-section, .tile-section {
         flex-direction: column;
         text-align: center;
+        margin: 20px auto;
     }
-    .text-content {
+
+    .tile-section .image-content img {
+        margin: 0 auto;
+    }
+
+    .flex-section .text-content, 
+    .tile-section .text-content {
         padding: 10px;
+    }
+
+    .icon-text {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .icon {
+        margin-bottom: 10px;
+    }
+
+    header {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .intro-section {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .intro-image img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .tile-section {
+        flex-direction: column;
+    }
+
+    .flex-section .text-content, 
+    .tile-section .text-content {
+        text-align: center;
+    }
+
+    .tile-section img {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .tile-section .text-content h1 {
+        font-size: 24px;
     }
 }
